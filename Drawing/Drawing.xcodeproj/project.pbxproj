@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		04C9DEAF2AB4324800B53617 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEAE2AB4324800B53617 /* DrawingApp.swift */; };
-		04C9DEB12AB4324800B53617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEB02AB4324800B53617 /* ContentView.swift */; };
+		04C9DEB12AB4324800B53617 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEB02AB4324800B53617 /* FlowerView.swift */; };
 		04C9DEB32AB4324A00B53617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DEB22AB4324A00B53617 /* Assets.xcassets */; };
 		04C9DEB62AB4324A00B53617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9DEB52AB4324A00B53617 /* Preview Assets.xcassets */; };
+		04C9DEBD2AB95C5200B53617 /* SpirografView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEBC2AB95C5200B53617 /* SpirografView.swift */; };
+		04C9DEBF2AB95D4800B53617 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9DEBE2AB95D4800B53617 /* AppTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C9DEAB2AB4324800B53617 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C9DEAE2AB4324800B53617 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
-		04C9DEB02AB4324800B53617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04C9DEB02AB4324800B53617 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
 		04C9DEB22AB4324A00B53617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C9DEB52AB4324A00B53617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C9DEBC2AB95C5200B53617 /* SpirografView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirografView.swift; sourceTree = "<group>"; };
+		04C9DEBE2AB95D4800B53617 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				04C9DEAE2AB4324800B53617 /* DrawingApp.swift */,
-				04C9DEB02AB4324800B53617 /* ContentView.swift */,
+				04C9DEB02AB4324800B53617 /* FlowerView.swift */,
+				04C9DEBE2AB95D4800B53617 /* AppTabView.swift */,
+				04C9DEBC2AB95C5200B53617 /* SpirografView.swift */,
 				04C9DEB22AB4324A00B53617 /* Assets.xcassets */,
 				04C9DEB42AB4324A00B53617 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C9DEB12AB4324800B53617 /* ContentView.swift in Sources */,
+				04C9DEB12AB4324800B53617 /* FlowerView.swift in Sources */,
 				04C9DEAF2AB4324800B53617 /* DrawingApp.swift in Sources */,
+				04C9DEBF2AB95D4800B53617 /* AppTabView.swift in Sources */,
+				04C9DEBD2AB95C5200B53617 /* SpirografView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
